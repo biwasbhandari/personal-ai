@@ -22,11 +22,11 @@ export default function RootLayout({
       <body className="bg-background text-foreground">
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex flex-col gap-20 max-w-5xl p-5">{children}</div>
+          {children}
         </ThemeProvider>
       </body>
     </html>

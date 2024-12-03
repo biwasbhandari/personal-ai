@@ -9,7 +9,7 @@ const Logout = () => {
 
   const Logout = () => {
     signOut();
-    router.push("/login");
+    router.push("/");
   };
 
   return (
