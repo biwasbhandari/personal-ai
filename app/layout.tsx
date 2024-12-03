@@ -1,7 +1,5 @@
-import { hasEnvVars } from "@/utils/supabase/check-env-vars";
 import { GeistSans } from "geist/font/sans";
 import { ThemeProvider } from "next-themes";
-import Link from "next/link";
 import "./globals.css";
 
 const defaultUrl = process.env.VERCEL_URL
@@ -10,8 +8,8 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
-  description: "The fastest way to build apps with Next.js and Supabase",
+  title: "BCA Genie",
+  description: "Say Goodbye to Old Notes—Your Smart BCA Companion is Here!",
 };
 
 export default function RootLayout({
