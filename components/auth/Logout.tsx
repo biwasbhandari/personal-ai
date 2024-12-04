@@ -14,7 +14,9 @@ const Logout = () => {
 
   return (
     <>
-      <Button onClick={Logout}>Logout</Button>
+      <Button onClick={Logout} variant="destructive">
+        Logout
+      </Button>
     </>
   );
 };

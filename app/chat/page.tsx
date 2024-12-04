@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import Logout from "@/components/auth/Logout";
+import { Chat } from "@/components/main/chat/Chat";
 
 const dashboard = () => {
   return (
     <div>
-      <Logout />
+      <Chat />
     </div>
   );
 };
